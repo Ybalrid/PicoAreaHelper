@@ -5,7 +5,7 @@ cls
 echo ===================================================
 echo PICO Area Switch Assistant
 echo Version: 1.0.2
-echo By£ºÈçÃÎNya & Cyberbug
+echo ByÂ£ÂºÃˆÃ§ÃƒÃŽNya & Cyberbug
 set adb=%~dp0\ADB\adb.exe
 %adb% devices -l | findstr "PICO">nul && (goto Success)
 echo ===================================================
@@ -23,7 +23,7 @@ echo ===================================================
 pause
 echo Change device region...
 REM the line below this needs to be changed to something else then HK or CN but not exactly sure EU EN US or UK for engish (user_settings_initialized is not well documented)
-%adb% shell settings put global user_settings_initialized HK
+%adb% shell settings put global user_settings_initialized FR
 echo Success
 echo clear app cache 1/3...
 %adb% shell pm clear com.picovr.store
