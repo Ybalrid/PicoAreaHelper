@@ -1,4 +1,7 @@
 # PicoAreaHelper
+
+[English README](./README.en.md)
+
 Pico4换区小助手
 
 ![image](https://user-images.githubusercontent.com/51113234/196170641-0d1565ca-74a8-48dc-a85b-be3d7374cd15.png)
